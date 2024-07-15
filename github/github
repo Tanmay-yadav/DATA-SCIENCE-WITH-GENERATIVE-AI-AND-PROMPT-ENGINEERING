@@ -1,0 +1,11 @@
+git>>> command is used to see if the git is installed or not
+ls >>>command show all the files present
+mkdir>>> used to make directory
+cd >>>used to change the directory
+git init>>>initialize the empty direstory
+ls -a>>> shows all the hidden directories
+
+pwd>>> current working directory 
+>>> config means from which account we will be making changes 
+git config --global user. "my name or account name"
+git config --global user.email "email.id"

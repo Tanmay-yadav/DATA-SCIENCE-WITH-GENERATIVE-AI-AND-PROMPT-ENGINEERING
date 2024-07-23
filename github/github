@@ -9,3 +9,32 @@ pwd>>> current working directory
 >>> config means from which account we will be making changes 
 git config --global user. "my name or account name"
 git config --global user.email "email.id"
+ssh-keygen ->>>to generate a secret code 
+                 after generating ssh key we will share go to my file and take ssh from their and set it to the github
+git status->> it shows the status of our current repository                           
+git add . ->> this command will add all the files and save them
+git config --global user.name ->>it shows the account name to which we are uploading
+git config --global user.email ->>it shows the email id to which we are uploading
+git status->> after using this command after commit command this will show  this -------->
+On branch master
+nothing to commit, working tree clean---->this means that we are ready to push these files or folder
+git remote add origin sshlink/https link
+git clone https link->>in this  
+untracked file->> this means that file is first time added
+modified->> changes were made in the pre existing file
+git checkout -f ->> this command will get your previous code even if the file is deleted locally
+branch:
+main ->>
+master->>
+git branch -b name->>
+
+
+tanma@pegasu-s MINGW64 ~/.vscode/upflaire/clonegit/new-repository (main)
+$ git push origin tanmay-->>> after coming in main branch we can upload our new branch
+_________________________________
+git init
+git add .
+git commit -m 'message'
+git remote add origin ''''''''
+git push origin master
+___________________________________

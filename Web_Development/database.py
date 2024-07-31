@@ -18,7 +18,7 @@ print("you have successfully created table in database!")
 cur.close()
 conn.close()
 
-# learn sql,html,bootstap,mysql,css
+#__________________________ learn sql,html,bootstap,mysql,css________________________________________________
 
 
 

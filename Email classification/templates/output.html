@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Output - SMS Spam Detection</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Output of the Project</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/project">Project Details</a></li>
+                <li><a href="/output">Output</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Confusion Matrix</h2>
+            <img src="/static/confusion_matrix.png" alt="Confusion Matrix">
+        </section>
+        <section>
+            <h2>Classification Report</h2>
+            <pre>{{ classification_report }}</pre>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 SMS Spam Detection Project</p>
+    </footer>
+</body>
+</html>

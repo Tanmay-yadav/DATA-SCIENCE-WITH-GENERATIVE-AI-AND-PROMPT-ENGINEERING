@@ -2,4 +2,4 @@ numpy
 streamlit
 google-generativeai
 python-dotenv
-Pillow--upgra
+Pillow
